@@ -1,0 +1,129 @@
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li strong {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  li p {
+    color: #666;
+  }
+  
+  li button {
+    background-color: #ff4747;
+    margin-right: 10px;
+  }
+  
+  li button:last-child {
+    background-color: #4caf50;
+  }
+  
+  li button:hover {
+    background-color: #e44d4d;
+  }
+  
+  li button:last-child:hover {
+    background-color: #45a049;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    margin-top: 14px;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    li {
+      padding: 10px;
+    }
+  
+    li strong {
+      font-size: 1rem;
+    }
+  
+    li p {
+      font-size: 0.9rem;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+      margin-top: 14px;
+    }
+  
+    .save-btn {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    li {
+      padding: 8px;
+    }
+  
+    li strong {
+      font-size: 0.9rem;
+    }
+  
+    li p {
+      font-size: 0.8rem;
+    }
+  
+    button {
+      font-size: 0.8rem;
+      padding: 8px;
+      margin-top: 14px;
+    }
+  
+    .save-btn {
+      font-size: 0.8rem;
+      padding: 8px 15px;
+    }
+  }
+  .display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  .display h2 {
+    font-size: 14px;
+    padding-top: 16px;
+  }
+  .display select {
+    width :80px;
+    
+  }
+  
